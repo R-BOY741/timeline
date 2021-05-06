@@ -10,23 +10,25 @@ body {
 
 .landing {
   height: 100vh;
-  background-color: peachpuff;
+  background-color: red;
   display: grid;
   place-items: center;
-  /* background: url(https://picsum.photos/1200?random=1);
+  background: url(https://i.pinimg.com/originals/3e/5c/0c/3e5c0c83d6ad9cc64cf2390f94bd5d05.gif);
   background-size: cover;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 h1 {
   text-transform: uppercase;
+  color: white;
+  text-decoration-color: blue;
 }
 
 .timeline-container {
   display: grid;
   grid-template-columns: 1fr 10% 1fr;
   grid-template-rows: repeat(4, 1fr);
-  background: url(https://picsum.photos/1200?random=2);
+  background: url(https://i.pinimg.com/236x/b6/c5/a8/b6c5a8c39ac672d4861a9e55a91c467b.jpg);
   background-size: cover;
   background-attachment: fixed;
   align-items: center;
